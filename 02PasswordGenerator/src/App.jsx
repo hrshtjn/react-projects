@@ -27,7 +27,7 @@ function App() {
 
 
   useEffect(() => { passwordGenerator() },
-    [length, numberRequired, charRequired, passwordGenerator])
+    [passwordGenerator])
 
   const copyPasswordToClipboard = () => {
     console.log("copyPasswordToClipboard called")
